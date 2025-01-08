@@ -25,6 +25,8 @@ if(found):
     print("will not take number")
 else:
     print("will take number")
+
+    
 # for i in range(rows):
 #     secondary_diagonal_sum += matrix[i][rows-i-1]
 
