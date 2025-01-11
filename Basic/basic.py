@@ -67,6 +67,8 @@
 
 
 
+# python built in data types 
+#  str, int, float, complex, list, tuple, range, dict, set, frozenset, bool,  bytes, bytearray, memoryview, NoneType
 
 
 
@@ -101,6 +103,7 @@
 
 # b = "Hello world"
 # print(b[-5::-2])
+# print(b[-5::-1])
 
 # b = " Hello- world! "
 
@@ -140,5 +143,20 @@
 # txt = "We have to t\n check \'escape\' character here "
 # print(txt)
 
-x = 200
-print(isinstance(x, int))
+
+# string methods 
+
+# capitalize(), casefold(), center(), count(), encode(), endswith(), expandtabs, find(), format(), format_map(), index(), 
+# isalnum(), isalpha(), isascii(), isdecimal(), isdigit(), isidentifier(), islower(), isnumeric(), isprintable(), isspace(), 
+# istitle(), isupper(), join(), ljust(), lower(), lstrip(), maketrans(), partition(),  replace(), rfind(), rindex(),
+# rjust(), rpartition(), rsplit(), rstrip(), split(), swapcase(), title(), translate(), upper(), zfill(),
+
+
+# x = 200
+# print(isinstance(x, int))
+
+
+# .............................   Python Operator .....................................................
+
+# Arithmetic(+, -, *, /, %, **, //), Assignment(=, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=, :=), 
+# Comparison(==, !=, >, <, >=, <=), Logical(and, or, not), Identity(is, is not), Membership(in, not in), Bitwise
