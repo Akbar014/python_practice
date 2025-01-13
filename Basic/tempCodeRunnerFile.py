@@ -1,5 +1,6 @@
+for x in fruits:
+#     print(x)
 
-# print(y)
-# print(z)
 
-# print(x["name"])
+# for i in range(len(fruits)):
+#     print(fruits[i]) 
