@@ -81,8 +81,8 @@ thisset = set(('apple', 'banana', 'cherry'))
 
 
 
-set1 = {"apple", "banana", "cherry"}
-set2 = {"google", "microsoft", "apple"}
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
 # set2 = ('google', 'microsoft', 'apple')
 
 # set3 = set1.intersection(set2)   # can intersect with differecnt data type
@@ -105,4 +105,24 @@ set2 = {"google", "microsoft", "apple"}
 # set3 = set1 ^ set2
 # set1.symmetric_difference_update(set2)
 
-print(set3)
+# print(set3)
+
+# Set methods 
+# add()
+# clear()
+# copy()
+# diference()
+# difference_update()
+# discard()
+# intersection()
+# intersection_update()
+# isdisjoint()
+# issubset()
+# issuperset()
+# pop()
+# remove()
+# symmetric_difference()
+# symmetric_difference_update()
+# union()
+# update()
+
