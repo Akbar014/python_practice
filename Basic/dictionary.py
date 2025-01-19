@@ -126,33 +126,56 @@ thisdict = {
 
 
 
-child1 = {
-    'name' : 'abc',
-    'age' : 24,
-}
+# child1 = {
+#     'name' : 'abc',
+#     'age' : 24,
+# }
 
-child2 = {
-    'name' : 'def',
-    'age' : 20,
-}
+# child2 = {
+#     'name' : 'def',
+#     'age' : 20,
+# }
 
-child3 = {
-    'name' : 'xyz',
-    'age' : 24
-}
+# child3 = {
+#     'name' : 'xyz',
+#     'age' : 24
+# }
 
-myFamily = {
-    'child1' : child1,
-    'child2' : child2,
-    'child3' : child3,
-}
+# myFamily = {
+#     'child1' : child1,
+#     'child2' : child2,
+#     'child3' : child3,
+# }
 
 
 # print(myFamily)
 # print(myFamily['child2']['name'])
 
-for x, obj in myFamily.items():
-    print(x)
+# for x, obj in myFamily.items():
+#     print(x)
 
-    for y in obj:
-        print(y + ':' ,  obj[y])
+#     for y in obj:
+#         print(y + ':' ,  obj[y])
+
+
+
+# x = ('key1', 'key2', 'key3')
+# y = 0
+
+# thisdict = dict.fromkeys(x,y)
+
+# print(thisdict)
+
+
+# car = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964,
+#   "colors" : ['red', 'white', 'blue'],
+# }
+
+# x = car.setdefault("model", "Bronco")
+
+# print(x)
+
+
