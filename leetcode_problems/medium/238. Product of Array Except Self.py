@@ -27,7 +27,7 @@ result = [1] * n
 # print(result)
 prefix = 1
 for i in range(len(nums)):
-    result[i] = prefix
+    result[i] = prefix  
     prefix *= nums[i]
 
 print(result)
