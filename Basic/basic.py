@@ -160,3 +160,72 @@
 
 # Arithmetic(+, -, *, /, %, **, //), Assignment(=, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=, :=), 
 # Comparison(==, !=, >, <, >=, <=), Logical(and, or, not), Identity(is, is not), Membership(in, not in), Bitwise
+
+
+# x = 5
+# a = x
+# b = a
+
+
+
+# a = [1,2,3]
+# b = [1,2,3]
+
+# if a == b:              # when the values of both the operands are equal,  compare the equality of objects,
+#     print("Equal")
+
+
+"""
+The 'is' operator evaluates to true if the variables on either side of the operator point to the same object.
+If not, it results in a false evaluation.
+"""
+# if a is b:            
+#     print("True")
+
+
+# a = 4
+# b = 5
+# a = 5
+
+
+# a = (1,2,3)
+# b = (1,2,3)
+
+# a = [1,2,3]
+# b = [1,2,3]
+
+# a = {}
+# b = {}
+
+# a = (1, 2, [3, 4])  # টুপলে mutable ডেটা (লিস্ট) আছে
+# b = (1, 2, [3, 4])
+# a = 5000
+# b = 5000
+# print(a is b) 
+# print(a == b)
+
+
+
+"""
+is: মেমরি লোকেশন চেক করে।
+==: ভ্যালু বা content চেক করে।
+
+"""
+
+
+# a = [1, 2, 3]
+# b = [1, 2, 3]
+
+# print(a == b)  # True, because the values inside the lists are the same.
+# print(a is b)  # False, because `a` and `b` refer to two different objects in memory.
+
+# # But if the values are the same and the objects are the same (interning or singletons):
+# x = 1000
+# y = 1000
+# print(x == y)  # True, values are the same.
+# print(x is y)  # False, because integers outside the interning range have separate memory locations.
+
+# z = 5
+# w = 5
+# print(z == w)  # True, values are the same.
+# print(z is w)  # True, because 5 is interned and shares the same memory.
