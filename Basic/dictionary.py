@@ -179,3 +179,8 @@ thisdict = {
 # print(x)
 
 
+# my_dict = {'a' : 1, 'b': 2, 'c' : 3}
+# print(my_dict.get('d'))   # None
+# print(my_dict.get('d', 'Key not found'))   # Key not found is the output
+# my_dict.get(1)    # Nothing in the output
+

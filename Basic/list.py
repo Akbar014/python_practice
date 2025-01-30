@@ -8,7 +8,7 @@
 # list1 = ["abc", 34, True, 40, "male"]
 # print(type(list1))
 
-# thislist = list(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"))
+thislist = list(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"))
 # # thislist.insert(2, "watermelon")
 # thislist.append("last appended")
 # # tropical = ["mango", "pineapple", "papaya"]

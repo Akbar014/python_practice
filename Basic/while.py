@@ -36,3 +36,29 @@
 # else:
 #     print('i is no longer than 6')
 
+
+
+
+# x = 10
+# i = 0
+# while i < x:
+#     i = i + 1
+#     if i%2 == 0:
+#         print("Even")
+#     else:
+#         continue
+#         print("Odd")
+
+# x = 10
+# i = 0
+# while i < x:
+#     i = i + 1
+#     if i%2 == 0:
+#         print(f"{i} is Even")
+#     else:
+#         continue
+#         print(f"{i} is Odd") b
+
+    # i = i + 1
+    
+

@@ -106,7 +106,7 @@
 # def my_function(s1, s2):
 #     s3 = s1 + s2
 #     # print("Total String: " , s3)   # this is working for both int and string 
-#     print("Total String: " + s3) # this only work when s1 and s2 are string otherwise getting error
+#     print("Total String: " + s3) # this only work when s1 and s2 both are string otherwise getting error
 
 # my_function('harun', 'patwoary')
 # my_function(1,2)
@@ -115,7 +115,7 @@
 # positional only arguments :
 
 # def fun(a,b, /):
-#     print(a,b)
+#     print(a,b) 
 
 # fun(1,2)
 # fun(a=1, b=2)  # keyword arguments not allowrd for positonal only (,/) arguments
@@ -139,13 +139,47 @@
 # fun(1,2, c=3,d=4)
 
 
-def tri_recursion(k):
-  if(k > 0):
-    result = k + tri_recursion(k - 1)
-    print(result)
-  else:
-    result = 0
-  return result
 
-print("Recursion Example Results:")
-tri_recursion(6)
+
+
+# recursion
+# def tri_recursion(k):
+#   if(k > 0):
+#     result = k + tri_recursion(k - 1)
+#     print(result)
+#   else:
+#     result = 0
+#   return result
+
+# print("Recursion Example Results:")
+# tri_recursion(6)
+
+
+
+
+msg_template = """Assalamualikum {name}, Heppy to see you in {company} """
+# print(msg_template)
+
+# my_msg = msg_template.format(name="Akbar", company="AmarCompany")
+# print(my_msg)
+
+def format_msg(my_name="Akbar", my_company="AmarCompany"):
+  my_msg = msg_template.format(name=my_name, company=my_company)
+  # print(my_msg)
+  return my_msg
+
+
+names = ['akbar', 'sohel', 'emon', 'mahfuz']
+
+for name in names:
+  this_person_msg = format_msg(my_name=name)
+  print(this_person_msg)
+
+
+  
+
+# format_msg()
+
+print("{} {name} {number}".format("another", name="abc", number=123))
+
+print("{1} {0}".format("abc",123))

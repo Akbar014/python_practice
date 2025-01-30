@@ -229,3 +229,12 @@ is: মেমরি লোকেশন চেক করে।
 # w = 5
 # print(z == w)  # True, values are the same.
 # print(z is w)  # True, because 5 is interned and shares the same memory.
+
+
+
+
+
+
+# print("This is \\ check for print function")
+# a = "this is \\ check for string"
+# print(a)
