@@ -175,4 +175,16 @@ thislist = ['apple', 'orange', 'banana']
 
 
 
+my_list = ['abc','ef','123']
+
+# list_to_csv = ",".join(my_list)
+# list_to_csv = ", something".join(my_list)
+# print(list_to_csv)
+
+my_items = ",".join(my_list)
+print(my_items.split(","))
+
+
+
+
 
