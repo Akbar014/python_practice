@@ -72,11 +72,11 @@
 # print(x)
 
 
-thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+# thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
 
-x = thistuple.index(8)
+# x = thistuple.index(8)
 
-print(x)
+# print(x)
 
 
 
@@ -92,3 +92,20 @@ print(x)
 # mytuple = fruits * 2
 
 # print(mytuple)
+
+
+another = 123, 345
+print(type(another))
+
+# unpacking variable
+# abc, x = another
+
+# print(abc)
+# print(x)
+# print(type(abc))
+# print(type(x))
+
+
+_, x = 123, 345
+print(x)
+print(_)
