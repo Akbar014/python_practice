@@ -1,5 +1,8 @@
 
 
+
+# A lambda function is an anonymous function (i.e., defined without a name) that can take any number of arguments but, unlike normal functions, evaluates and returns only one expression.
+
 # x = lambda a, b : a * b
 # print(x(5, 6))
 

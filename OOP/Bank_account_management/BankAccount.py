@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
     # Perform operations on account2
     print(account2)
-    account2.deposit(1000)
+    account2.deposit(1000) 
     account2.withdraw(1500)  # Attempt to withdraw more than the balance
     account2.get_balance()
 
