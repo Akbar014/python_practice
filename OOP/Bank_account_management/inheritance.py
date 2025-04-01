@@ -22,8 +22,6 @@ class c(B):
 # this is multi level inheritance  (A<-b<-c)
 
 
-
-
 class c(A,B):
     def feature4(self):
         print("This is from feature4")
